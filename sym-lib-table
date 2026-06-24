@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "lcsc_easyeda") (type "KiCad") (uri "${KIPRJMOD}/parts/lcsc_easyeda.kicad_sym") (options "") (descr ""))
+)
