@@ -3,16 +3,16 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "bd4df7b8-c39d-40e5-889a-b2256ac03812")
-	(paper "A4")
+	(paper "B")
 	(lib_symbols
-		(symbol "lcsc_easyeda:10.0QHHTZB6.3"
+		(symbol "lcsc_easyeda:GL3224-OIY04"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "USB"
-				(at 0 16.51 0)
+			(property "Reference" "U"
+				(at 0 25.4 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -21,8 +21,8 @@
 					)
 				)
 			)
-			(property "Value" "10.0 QHHTZB6.3"
-				(at 0 -16.51 0)
+			(property "Value" "GL3224-OIY04"
+				(at 0 -25.4 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -31,8 +31,8 @@
 					)
 				)
 			)
-			(property "Footprint" "lcsc_easyeda:USB-A-TH_10.0QHHTZB6.3"
-				(at 0 -19.05 0)
+			(property "Footprint" "lcsc_easyeda:HQFN-32_L5.0-W5.0-P0.50-BL-EP3.0"
+				(at 0 -27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -42,8 +42,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C668591.pdf"
-				(at 0 -21.59 0)
+			(property "Datasheet" "https://lcsc.com/product-detail/USB_GENESYS_GL3224-OIY04_GL3224-OIY04_C157357.html"
+				(at 0 -30.48 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -64,8 +64,8 @@
 					)
 				)
 			)
-			(property "Manufacturer" "SHOU HAN(首韩)"
-				(at 0 -24.13 0)
+			(property "Manufacturer" "GENESYS(创惟)"
+				(at 0 -33.02 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -75,8 +75,8 @@
 					)
 				)
 			)
-			(property "MPN" "10.0 QHHTZB6.3"
-				(at 0 -26.67 0)
+			(property "MPN" "GL3224-OIY04"
+				(at 0 -35.56 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -86,8 +86,731 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C668591"
-				(at 0 -29.21 0)
+			(property "LCSC Part" "C157357"
+				(at 0 -38.1 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "USB ICs"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GL3224-OIY04_0_1"
+				(rectangle
+					(start -16.51 22.86)
+					(end 16.51 -22.86)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -15.88 22.22)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 17.78 0)
+					(length 2.54)
+					(name "TXN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 15.24 0)
+					(length 2.54)
+					(name "TXP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 12.7 0)
+					(length 2.54)
+					(name "AVDD12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 10.16 0)
+					(length 2.54)
+					(name "RXN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 7.62 0)
+					(length 2.54)
+					(name "RXP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 5.08 0)
+					(length 2.54)
+					(name "X1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 2.54 0)
+					(length 2.54)
+					(name "X2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 0 0)
+					(length 2.54)
+					(name "AVDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 -2.54 0)
+					(length 2.54)
+					(name "RTERM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 -5.08 0)
+					(length 2.54)
+					(name "SPI_MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 -7.62 0)
+					(length 2.54)
+					(name "SPI_MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 -10.16 0)
+					(length 2.54)
+					(name "SPI_CK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 -12.7 0)
+					(length 2.54)
+					(name "SPI_CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 -15.24 0)
+					(length 2.54)
+					(name "LED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 -17.78 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 -20.32 0)
+					(length 2.54)
+					(name "DVDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 19.05 -20.32 180)
+					(length 2.54)
+					(name "DVDD12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 19.05 -17.78 180)
+					(length 2.54)
+					(name "SD_D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 19.05 -15.24 180)
+					(length 2.54)
+					(name "SD_D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 19.05 -12.7 180)
+					(length 2.54)
+					(name "SD_CK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 19.05 -10.16 180)
+					(length 2.54)
+					(name "SD_CM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 19.05 -7.62 180)
+					(length 2.54)
+					(name "SD_D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 19.05 -5.08 180)
+					(length 2.54)
+					(name "SD_D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 19.05 -2.54 180)
+					(length 2.54)
+					(name "VUHSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 19.05 0 180)
+					(length 2.54)
+					(name "DVDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 19.05 2.54 180)
+					(length 2.54)
+					(name "SD_VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 19.05 5.08 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 19.05 7.62 180)
+					(length 2.54)
+					(name "SD_WP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 19.05 10.16 180)
+					(length 2.54)
+					(name "SD_CDZ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 19.05 12.7 180)
+					(length 2.54)
+					(name "AVDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 19.05 15.24 180)
+					(length 2.54)
+					(name "DM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 19.05 17.78 180)
+					(length 2.54)
+					(name "DP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 19.05 20.32 180)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc_easyeda:HC-USB3.0-C26"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HC-USB3.0-C26"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_easyeda:USB-3.0-A-SMD_HC-USB3.0-C26"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C7501854.pdf"
+				(at 0 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "HC(虹成电子)"
+				(at 0 -27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "HC-USB3.0-C26"
+				(at 0 -30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C7501854"
+				(at 0 -33.02 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -108,10 +831,10 @@
 					)
 				)
 			)
-			(symbol "10.0QHHTZB6.3_0_1"
+			(symbol "HC-USB3.0-C26_0_1"
 				(rectangle
-					(start -5.08 6.35)
-					(end 10.16 -6.35)
+					(start -10.16 12.7)
+					(end 12.7 -12.7)
 					(stroke
 						(width 0)
 						(type default)
@@ -120,10 +843,21 @@
 						(type background)
 					)
 				)
+				(circle
+					(center -8.89 11.43)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin unspecified line
-					(at -10.16 3.81 0)
-					(length 5.08)
-					(name "VCC"
+					(at -12.7 10.16 0)
+					(length 2.54)
+					(name "VBUS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -139,8 +873,8 @@
 					)
 				)
 				(pin unspecified line
-					(at -10.16 1.27 0)
-					(length 5.08)
+					(at -12.7 7.62 0)
+					(length 2.54)
 					(name "D-"
 						(effects
 							(font
@@ -157,8 +891,8 @@
 					)
 				)
 				(pin unspecified line
-					(at -10.16 -1.27 0)
-					(length 5.08)
+					(at -12.7 5.08 0)
+					(length 2.54)
 					(name "D+"
 						(effects
 							(font
@@ -175,8 +909,8 @@
 					)
 				)
 				(pin unspecified line
-					(at -10.16 -3.81 0)
-					(length 5.08)
+					(at -12.7 2.54 0)
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
@@ -193,9 +927,9 @@
 					)
 				)
 				(pin unspecified line
-					(at 2.54 -11.43 90)
-					(length 5.08)
-					(name "5"
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "STDA_SSRX-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -211,9 +945,9 @@
 					)
 				)
 				(pin unspecified line
-					(at 2.54 11.43 270)
-					(length 5.08)
-					(name "6"
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "STDA_SSRX+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -228,17 +962,107 @@
 						)
 					)
 				)
+				(pin unspecified line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "GND_DRAIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "STDA_SSTX-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(name "STDA_SSTX+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 15.24 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc_easyeda:CH339W_C25503971"
+		(symbol "lcsc_easyeda:HD3SS3212IRKSR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 0 48.26 0)
+				(at 0 17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -247,8 +1071,8 @@
 					)
 				)
 			)
-			(property "Value" "CH339W_C25503971"
-				(at 0 -48.26 0)
+			(property "Value" "HD3SS3212IRKSR"
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -257,8 +1081,8 @@
 					)
 				)
 			)
-			(property "Footprint" "lcsc_easyeda:QFN-68_L8.0-W8.0-P0.40-BL-EP5.5"
-				(at 0 -50.8 0)
+			(property "Footprint" "lcsc_easyeda:DHVQFN-20_L4.5-W2.5-P0.50-BL-EP"
+				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -268,8 +1092,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C25503971.pdf"
-				(at 0 -53.34 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C544517.pdf"
+				(at 0 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -290,8 +1114,8 @@
 					)
 				)
 			)
-			(property "Manufacturer" "WCH(南京沁恒)"
-				(at 0 -55.88 0)
+			(property "Manufacturer" "TI(德州仪器)"
+				(at 0 -25.4 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -301,8 +1125,8 @@
 					)
 				)
 			)
-			(property "MPN" "CH339W"
-				(at 0 -58.42 0)
+			(property "MPN" "HD3SS3212IRKSR"
+				(at 0 -27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -312,8 +1136,8 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C25503971"
-				(at 0 -60.96 0)
+			(property "LCSC Part" "C544517"
+				(at 0 -30.48 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -323,10 +1147,21 @@
 					)
 				)
 			)
-			(symbol "CH339W_C25503971_0_1"
+			(property "ki_keywords" "Signal Switches / Encoders & Decoders / Multiplexers"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "HD3SS3212IRKSR_0_1"
 				(rectangle
-					(start -25.4 45.72)
-					(end 25.4 -45.72)
+					(start -8.89 15.24)
+					(end 8.89 -15.24)
 					(stroke
 						(width 0)
 						(type default)
@@ -336,7 +1171,7 @@
 					)
 				)
 				(circle
-					(center -24.13 41.91)
+					(center -7.62 13.97)
 					(radius 0.38)
 					(stroke
 						(width 0)
@@ -347,9 +1182,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -27.94 40.64 0)
+					(at -11.43 10.16 0)
 					(length 2.54)
-					(name "MDITP"
+					(name "RSVD1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -365,9 +1200,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -27.94 38.1 0)
+					(at -11.43 7.62 0)
 					(length 2.54)
-					(name "MDITN"
+					(name "OEn"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -383,9 +1218,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -27.94 35.56 0)
+					(at -11.43 5.08 0)
 					(length 2.54)
-					(name "VDD33"
+					(name "A0p"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -401,9 +1236,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -27.94 33.02 0)
+					(at -11.43 2.54 0)
 					(length 2.54)
-					(name "MDIRP"
+					(name "A0n"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -419,9 +1254,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -27.94 30.48 0)
+					(at -11.43 0 0)
 					(length 2.54)
-					(name "MDIRN"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -437,9 +1272,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -27.94 27.94 0)
+					(at -11.43 -2.54 0)
 					(length 2.54)
-					(name "GND"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -455,9 +1290,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -27.94 25.4 0)
+					(at -11.43 -5.08 0)
 					(length 2.54)
-					(name "DM6"
+					(name "A1p"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -473,9 +1308,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -27.94 22.86 0)
+					(at -11.43 -7.62 0)
 					(length 2.54)
-					(name "DP6"
+					(name "A1n"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -491,9 +1326,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -27.94 20.32 0)
+					(at -11.43 -10.16 0)
 					(length 2.54)
-					(name "DM7"
+					(name "SEL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -509,9 +1344,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -27.94 17.78 0)
+					(at -11.43 -12.7 0)
 					(length 2.54)
-					(name "DP7"
+					(name "RSVD2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -527,9 +1362,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -27.94 15.24 0)
+					(at 11.43 -12.7 180)
 					(length 2.54)
-					(name "VDD33"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -545,9 +1380,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -27.94 12.7 0)
+					(at 11.43 -10.16 180)
 					(length 2.54)
-					(name "DMU"
+					(name "C1N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -563,9 +1398,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -27.94 10.16 0)
+					(at 11.43 -7.62 180)
 					(length 2.54)
-					(name "DPU"
+					(name "C1P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -581,9 +1416,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -27.94 7.62 0)
+					(at 11.43 -5.08 180)
 					(length 2.54)
-					(name "GND"
+					(name "C0N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -599,9 +1434,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -27.94 5.08 0)
+					(at 11.43 -2.54 180)
 					(length 2.54)
-					(name "XO"
+					(name "C0P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -617,9 +1452,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -27.94 2.54 0)
+					(at 11.43 0 180)
 					(length 2.54)
-					(name "XI"
+					(name "B1N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -635,9 +1470,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -27.94 0 0)
+					(at 11.43 2.54 180)
 					(length 2.54)
-					(name "AVDDK"
+					(name "B1P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -653,9 +1488,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -27.94 -2.54 0)
+					(at 11.43 5.08 180)
 					(length 2.54)
-					(name "DM1"
+					(name "B0N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -671,9 +1506,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -27.94 -5.08 0)
+					(at 11.43 7.62 180)
 					(length 2.54)
-					(name "DP1"
+					(name "B0P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -689,9 +1524,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -27.94 -7.62 0)
+					(at 11.43 10.16 180)
 					(length 2.54)
-					(name "DM2"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -707,871 +1542,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -27.94 -10.16 0)
-					(length 2.54)
-					(name "DP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -27.94 -12.7 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -27.94 -15.24 0)
-					(length 2.54)
-					(name "VDD33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -27.94 -17.78 0)
-					(length 2.54)
-					(name "DM3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -27.94 -20.32 0)
-					(length 2.54)
-					(name "DP3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -27.94 -22.86 0)
-					(length 2.54)
-					(name "DM4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -27.94 -25.4 0)
-					(length 2.54)
-					(name "DP4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -27.94 -27.94 0)
-					(length 2.54)
-					(name "DM5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -27.94 -30.48 0)
-					(length 2.54)
-					(name "DP5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -27.94 -33.02 0)
-					(length 2.54)
-					(name "VDD33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -27.94 -35.56 0)
-					(length 2.54)
-					(name "LED_ACT/CFG0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -27.94 -38.1 0)
-					(length 2.54)
-					(name "RXD/~{OVCUR3}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -27.94 -40.64 0)
-					(length 2.54)
-					(name "TXD/~{OVCUR2}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -27.94 -43.18 0)
-					(length 2.54)
-					(name "~{OVCUR1}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 -43.18 180)
-					(length 2.54)
-					(name "LED_LINK/CFG1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 -40.64 180)
-					(length 2.54)
-					(name "PD_CTL3/GPIO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 -38.1 180)
-					(length 2.54)
-					(name "PD_CIL2/GPIO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 -35.56 180)
-					(length 2.54)
-					(name "SDA/SMBDAT/CTS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 -33.02 180)
-					(length 2.54)
-					(name "SCL/SMBCLK/RTS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 -30.48 180)
-					(length 2.54)
-					(name "VIO33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 -27.94 180)
-					(length 2.54)
-					(name "~{PWREN1}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 -25.4 180)
-					(length 2.54)
-					(name "SCK/~{OVCUR4}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "42"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 -22.86 180)
-					(length 2.54)
-					(name "SCS/~{OVCUR5}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 -20.32 180)
-					(length 2.54)
-					(name "MOSI/~{OVCUR6}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "44"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 -17.78 180)
-					(length 2.54)
-					(name "MISO/~{OVCUR7}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "45"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 -15.24 180)
-					(length 2.54)
-					(name "SDVCC_EN/CFG2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "46"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 -12.7 180)
-					(length 2.54)
-					(name "HUB_CC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 -10.16 180)
-					(length 2.54)
-					(name "SD_D3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "48"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 -7.62 180)
-					(length 2.54)
-					(name "SD_D2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "49"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 -5.08 180)
-					(length 2.54)
-					(name "SD_D1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "50"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 -2.54 180)
-					(length 2.54)
-					(name "SD_D0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "51"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 0 180)
-					(length 2.54)
-					(name "SD_SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "52"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "53"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 5.08 180)
-					(length 2.54)
-					(name "VSDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "54"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 7.62 180)
-					(length 2.54)
-					(name "SD_CMD/PSELF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "55"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 10.16 180)
-					(length 2.54)
-					(name "PWR_CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "56"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 12.7 180)
-					(length 2.54)
-					(name "PWR_CC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "57"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 15.24 180)
-					(length 2.54)
-					(name "~{RESET}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "58"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 17.78 180)
-					(length 2.54)
-					(name "PD_CTL1/GPIO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "59"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 20.32 180)
-					(length 2.54)
-					(name "DVDDK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "60"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 22.86 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "61"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 25.4 180)
-					(length 2.54)
-					(name "SRST/~{PWREN2}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "62"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 27.94 180)
-					(length 2.54)
-					(name "VIO33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "63"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 30.48 180)
-					(length 2.54)
-					(name "TRST/~{PWREN3}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "64"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 33.02 180)
-					(length 2.54)
-					(name "TCK/~{PWREN4}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "65"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 35.56 180)
-					(length 2.54)
-					(name "TMS/~{PWREN5}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "66"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 38.1 180)
-					(length 2.54)
-					(name "TDO/~{PWREN6}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "67"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 40.64 180)
-					(length 2.54)
-					(name "TDI/~{PWREN7}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "68"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 43.18 180)
+					(at 11.43 12.7 180)
 					(length 2.54)
 					(name "EP"
 						(effects
@@ -1580,7 +1551,7 @@
 							)
 						)
 					)
-					(number "69"
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1954,14 +1925,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc_easyeda:TYPE-C16PIN2MD"
+		(symbol "lcsc_easyeda:TYPE-C24P-GTJB040"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "USB"
-				(at 0 19.05 0)
+			(property "Reference" "U"
+				(at 0 24.13 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1970,8 +1941,8 @@
 					)
 				)
 			)
-			(property "Value" "TYPE-C 16PIN 2MD"
-				(at 0 -19.05 0)
+			(property "Value" "TYPE-C 24P-GTJB 040"
+				(at 0 -24.13 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1980,8 +1951,8 @@
 					)
 				)
 			)
-			(property "Footprint" "lcsc_easyeda:USB-C-SMD_TYPE-C-16PIN-2MD-073"
-				(at 0 -21.59 0)
+			(property "Footprint" "lcsc_easyeda:USB-C-SMD_TYPE-C-24P-GTJB-040"
+				(at 0 -26.67 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1991,8 +1962,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C2765186.pdf"
-				(at 0 -24.13 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C3151751.pdf"
+				(at 0 -29.21 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2014,29 +1985,29 @@
 				)
 			)
 			(property "Manufacturer" "SHOU HAN(首韩)"
-				(at 0 -26.67 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "TYPE-C 16PIN 2MD(073)"
-				(at 0 -29.21 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C2765186"
 				(at 0 -31.75 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "TYPE-C 24P-GTJB 040"
+				(at 0 -34.29 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C3151751"
+				(at 0 -36.83 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2057,10 +2028,10 @@
 					)
 				)
 			)
-			(symbol "TYPE-C16PIN2MD_0_1"
+			(symbol "TYPE-C24P-GTJB040_0_1"
 				(rectangle
-					(start -3.81 16.51)
-					(end 8.89 -16.51)
+					(start -11.43 16.51)
+					(end 11.43 -16.51)
 					(stroke
 						(width 0)
 						(type default)
@@ -2069,44 +2040,19 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
-					(at 11.43 13.97 180)
-					(length 2.54)
-					(name "EH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(circle
+					(center -10.16 15.24)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
 					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(fill
+						(type none)
 					)
 				)
 				(pin unspecified line
-					(at 11.43 -13.97 180)
-					(length 2.54)
-					(name "EH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 13.97 0)
+					(at 0 19.05 270)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2115,7 +2061,7 @@
 							)
 						)
 					)
-					(number "A1B12"
+					(number "25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2124,7 +2070,79 @@
 					)
 				)
 				(pin unspecified line
-					(at -6.35 11.43 0)
+					(at 0 -19.05 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 -13.97 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 -11.43 0)
+					(length 2.54)
+					(name "SSTXP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 -8.89 0)
+					(length 2.54)
+					(name "SSTXn1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 -6.35 0)
 					(length 2.54)
 					(name "VBUS"
 						(effects
@@ -2133,7 +2151,7 @@
 							)
 						)
 					)
-					(number "A4B9"
+					(number "A4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2142,7 +2160,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -6.35 6.35 0)
+					(at -13.97 -3.81 0)
 					(length 2.54)
 					(name "CC1"
 						(effects
@@ -2160,9 +2178,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -6.35 1.27 0)
+					(at -13.97 -1.27 0)
 					(length 2.54)
-					(name "Dp1"
+					(name "DP1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2178,9 +2196,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -6.35 -1.27 0)
+					(at -13.97 1.27 0)
 					(length 2.54)
-					(name "Dn1"
+					(name "DN1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2196,7 +2214,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -6.35 -6.35 0)
+					(at -13.97 3.81 0)
 					(length 2.54)
 					(name "SBU1"
 						(effects
@@ -2214,25 +2232,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -6.35 -13.97 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 -11.43 0)
+					(at -13.97 6.35 0)
 					(length 2.54)
 					(name "VBUS"
 						(effects
@@ -2241,7 +2241,7 @@
 							)
 						)
 					)
-					(number "B4A9"
+					(number "A9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2250,7 +2250,133 @@
 					)
 				)
 				(pin unspecified line
-					(at -6.35 -8.89 0)
+					(at -13.97 8.89 0)
+					(length 2.54)
+					(name "SSRXn2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 11.43 0)
+					(length 2.54)
+					(name "SSRXp2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 13.97 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 13.97 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 11.43 180)
+					(length 2.54)
+					(name "SSTXp2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 8.89 180)
+					(length 2.54)
+					(name "SSTXn2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 6.35 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 3.81 180)
 					(length 2.54)
 					(name "CC2"
 						(effects
@@ -2268,9 +2394,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -6.35 -3.81 0)
+					(at 13.97 1.27 180)
 					(length 2.54)
-					(name "Dp2"
+					(name "DP2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2286,9 +2412,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -6.35 3.81 0)
+					(at 13.97 -1.27 180)
 					(length 2.54)
-					(name "Dn2"
+					(name "DN2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2304,7 +2430,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -6.35 8.89 0)
+					(at 13.97 -3.81 180)
 					(length 2.54)
 					(name "SBU2"
 						(effects
@@ -2321,13 +2447,2992 @@
 						)
 					)
 				)
+				(pin unspecified line
+					(at 13.97 -6.35 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 -8.89 180)
+					(length 2.54)
+					(name "SSRXn1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 -11.43 180)
+					(length 2.54)
+					(name "SSRXp1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 -13.97 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc_easyeda:TYPE-C24PQT143"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "USB"
+				(at 0 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TYPE-C 24P QT 143"
+				(at 0 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_easyeda:TYPE-C-SMD_C9900025773"
+				(at 0 -27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C5156605.pdf"
+				(at 0 -30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "SHOU HAN(首韩)"
+				(at 0 -33.02 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "TYPE-C 24P QT 143"
+				(at 0 -35.56 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C5156605"
+				(at 0 -38.1 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "USB Connectors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TYPE-C24PQT143_0_1"
+				(rectangle
+					(start -12.7 20.32)
+					(end 12.7 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -10.16 17.78)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -20.32 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 -20.32 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -20.32 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -20.32 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 15.24 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 12.7 0)
+					(length 2.54)
+					(name "SSTXP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 10.16 0)
+					(length 2.54)
+					(name "SSTXn1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 7.62 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "DP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "DN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "SUB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 -7.62 0)
+					(length 2.54)
+					(name "SSRXn2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 -10.16 0)
+					(length 2.54)
+					(name "SSRXp2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 -12.7 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 -12.7 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "SSTXp2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "SSTXn2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "DP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 2.54 180)
+					(length 2.54)
+					(name "DN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "SUB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 7.62 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 10.16 180)
+					(length 2.54)
+					(name "SSRXn1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 12.7 180)
+					(length 2.54)
+					(name "SSRXp1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 15.24 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc_easyeda:U-A-39SS-W-1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "USB"
+				(at 0 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "U-A-39SS-W-1"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_easyeda:USB-A-SMD_U-A-39SS-W-1"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2689987.pdf"
+				(at 0 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "韩国韩荣"
+				(at 0 -27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "U-A-39SS-W-1"
+				(at 0 -30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C2689987"
+				(at 0 -33.02 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "USB Connectors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "U-A-39SS-W-1_0_1"
+				(rectangle
+					(start -6.35 12.7)
+					(end 8.89 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -5.08 11.43)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 10.16 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 7.62 0)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 5.08 0)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "SSRX-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "SSRX+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 -7.62 0)
+					(length 2.54)
+					(name "SSTX-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 -10.16 0)
+					(length 2.54)
+					(name "SSTX+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 15.24 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc_easyeda:USB5807C_KD"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 68.58 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "USB5807C/KD"
+				(at 0 -68.58 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_easyeda:VQFN-100_L12.0-W12.0-P0.40-TL-EP8.0"
+				(at 0 -71.12 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C633968.pdf"
+				(at 0 -73.66 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "MICROCHIP(美国微芯)"
+				(at 0 -76.2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "USB5807C/KD"
+				(at 0 -78.74 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C633968"
+				(at 0 -81.28 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Pre-ordered MCUs"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "USB5807C_KD_0_1"
+				(rectangle
+					(start -48.26 66.04)
+					(end 45.72 -66.04)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -46.99 64.77)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 60.96 0)
+					(length 2.54)
+					(name "RBIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 58.42 0)
+					(length 2.54)
+					(name "VDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 55.88 0)
+					(length 2.54)
+					(name "XTALI/CLKIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 53.34 0)
+					(length 2.54)
+					(name "XTALO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 50.8 0)
+					(length 2.54)
+					(name "VDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 48.26 0)
+					(length 2.54)
+					(name "USB2DN_DP1/PRT_DIS_P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 45.72 0)
+					(length 2.54)
+					(name "USB2DN_DM1/PRT_DIS_M1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 43.18 0)
+					(length 2.54)
+					(name "USB3DN_TXDP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 40.64 0)
+					(length 2.54)
+					(name "USB3DN_TXDM1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 38.1 0)
+					(length 2.54)
+					(name "VDD12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 35.56 0)
+					(length 2.54)
+					(name "USB3DN_RXDP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 33.02 0)
+					(length 2.54)
+					(name "USB3DN_RXDM1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 30.48 0)
+					(length 2.54)
+					(name "USB2DN_DP2/PRT_DIS_P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 27.94 0)
+					(length 2.54)
+					(name "USB2DN_DM2/PRT_DIS_M2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 25.4 0)
+					(length 2.54)
+					(name "USB3DN_TXDP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 22.86 0)
+					(length 2.54)
+					(name "USB3DN_TXDM2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 20.32 0)
+					(length 2.54)
+					(name "VDD12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 17.78 0)
+					(length 2.54)
+					(name "USB3DN_RXDP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 15.24 0)
+					(length 2.54)
+					(name "USB3DN_RXDM2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 12.7 0)
+					(length 2.54)
+					(name "GPIO12/CFG_STRAP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 10.16 0)
+					(length 2.54)
+					(name "FLEX_CMD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 7.62 0)
+					(length 2.54)
+					(name "FLEX_STATE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 5.08 0)
+					(length 2.54)
+					(name "TESTEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 2.54 0)
+					(length 2.54)
+					(name "VBUS_DET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 0 0)
+					(length 2.54)
+					(name "RESET_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 -2.54 0)
+					(length 2.54)
+					(name "VDD12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 -5.08 0)
+					(length 2.54)
+					(name "VDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 -7.62 0)
+					(length 2.54)
+					(name "USB2DN_DP3/PRT_DIS_P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 -10.16 0)
+					(length 2.54)
+					(name "USB2DN_DM3/PRT_DIS_M3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 -12.7 0)
+					(length 2.54)
+					(name "USB3DN_TXDP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 -15.24 0)
+					(length 2.54)
+					(name "USB3DN_TXDM3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 -17.78 0)
+					(length 2.54)
+					(name "VDD12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 -20.32 0)
+					(length 2.54)
+					(name "USB3DN_RXDP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 -22.86 0)
+					(length 2.54)
+					(name "USB3DN_RXDM3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 -25.4 0)
+					(length 2.54)
+					(name "USB2DN_DP4/PRT_DIS_P4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 -27.94 0)
+					(length 2.54)
+					(name "USB2DN_DM4/PRT_DIS_M4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 -30.48 0)
+					(length 2.54)
+					(name "USB3DN_TXDP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 -33.02 0)
+					(length 2.54)
+					(name "USB3DN_TXDM4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 -35.56 0)
+					(length 2.54)
+					(name "VDD12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 -38.1 0)
+					(length 2.54)
+					(name "USB3DN_RXDP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 -40.64 0)
+					(length 2.54)
+					(name "USB3DN_RXDM4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 -43.18 0)
+					(length 2.54)
+					(name "VDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 -45.72 0)
+					(length 2.54)
+					(name "USB2DN_DP5/PRT_DIS_P5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 -48.26 0)
+					(length 2.54)
+					(name "USB2DN_DM5/PRT_DIS_M5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 -50.8 0)
+					(length 2.54)
+					(name "USB3DN_TXDP5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 -53.34 0)
+					(length 2.54)
+					(name "USB3DN_TXDM5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 -55.88 0)
+					(length 2.54)
+					(name "VDD12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 -58.42 0)
+					(length 2.54)
+					(name "USB3DN_RXDP5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 -60.96 0)
+					(length 2.54)
+					(name "USB3DN_RXDM5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -50.8 -63.5 0)
+					(length 2.54)
+					(name "SPEED_IND5/BC_IND5/GPIO65"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 -63.5 180)
+					(length 2.54)
+					(name "PRT_CTL6/GPIO22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 -60.96 180)
+					(length 2.54)
+					(name "PRT_CTL5/GPIO21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 -58.42 180)
+					(length 2.54)
+					(name "PRT_CTL7/GPIO23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 -55.88 180)
+					(length 2.54)
+					(name "VDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 -53.34 180)
+					(length 2.54)
+					(name "SPEED_IND7/BC_IND7/GPIO67"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 -50.8 180)
+					(length 2.54)
+					(name "SPEED_IND3/BC_IND3/GPIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 -48.26 180)
+					(length 2.54)
+					(name "PRT_CTL4/GANG_PWR/GPIO20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 -45.72 180)
+					(length 2.54)
+					(name "PRT_CTL3/GPIO19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "58"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 -43.18 180)
+					(length 2.54)
+					(name "VDD12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 -40.64 180)
+					(length 2.54)
+					(name "SPEED_IND4/BC_IND4/GPIO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "60"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 -38.1 180)
+					(length 2.54)
+					(name "SPEED_IND2/BC_IND2/GPIO71"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 -35.56 180)
+					(length 2.54)
+					(name "PRT_CTL2/GPIO18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 -33.02 180)
+					(length 2.54)
+					(name "SPEED_IND1/BC_IND1/GPIO70"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "63"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 -30.48 180)
+					(length 2.54)
+					(name "VDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "64"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 -27.94 180)
+					(length 2.54)
+					(name "SPI_CLK/C_ATTACH3/GPIO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "65"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 -25.4 180)
+					(length 2.54)
+					(name "SPI_DO/C_ATTACH2/GPIO5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "66"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 -22.86 180)
+					(length 2.54)
+					(name "SPI_DI/GPIO9/CFG_BC_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "67"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 -20.32 180)
+					(length 2.54)
+					(name "SPI_CE_N/GPIO7/CFG_NON_REM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "68"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 -17.78 180)
+					(length 2.54)
+					(name "GPIO69"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "69"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 -15.24 180)
+					(length 2.54)
+					(name "PRT_CTL1/GPIO17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "70"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 -12.7 180)
+					(length 2.54)
+					(name "SPEED_IND6/BC_IND6/GPIO66"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "71"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 -10.16 180)
+					(length 2.54)
+					(name "VDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "72"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 -7.62 180)
+					(length 2.54)
+					(name "C_ATTACH1/GPIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "73"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 -5.08 180)
+					(length 2.54)
+					(name "SMBDATA/GPIO6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "74"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 -2.54 180)
+					(length 2.54)
+					(name "SMBCLK/GPIO8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "75"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 0 180)
+					(length 2.54)
+					(name "C_ATTACH0/GPIO64"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "76"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 2.54 180)
+					(length 2.54)
+					(name "SUSP_IND/GPIO68"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "77"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 5.08 180)
+					(length 2.54)
+					(name "VDD12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "78"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 7.62 180)
+					(length 2.54)
+					(name "USB2DN_DP7/PRT_DIS_P7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "79"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 10.16 180)
+					(length 2.54)
+					(name "USB2DN_DM7/PRT_DIS_M7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "80"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 12.7 180)
+					(length 2.54)
+					(name "USB3DN_TXDP7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "81"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 15.24 180)
+					(length 2.54)
+					(name "USB3DN_TXDM7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "82"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 17.78 180)
+					(length 2.54)
+					(name "VDD12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "83"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 20.32 180)
+					(length 2.54)
+					(name "USB3DN_RXDP7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "84"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 22.86 180)
+					(length 2.54)
+					(name "USB3DN_RXDM7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "85"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 25.4 180)
+					(length 2.54)
+					(name "USB2DN_DP6/PRT_DIS_P6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "86"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 27.94 180)
+					(length 2.54)
+					(name "USB2DN_DM6/PRT_DIS_M6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "87"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 30.48 180)
+					(length 2.54)
+					(name "USB3DN_TXDP6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "88"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 33.02 180)
+					(length 2.54)
+					(name "USB3DN_TXDM6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "89"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 35.56 180)
+					(length 2.54)
+					(name "VDD12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "90"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 38.1 180)
+					(length 2.54)
+					(name "USB3DN_RXDP6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "91"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 40.64 180)
+					(length 2.54)
+					(name "USB3DN_RXDM6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "92"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 43.18 180)
+					(length 2.54)
+					(name "VDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "93"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 45.72 180)
+					(length 2.54)
+					(name "USB2UP_DP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "94"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 48.26 180)
+					(length 2.54)
+					(name "USB2UP_DM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "95"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 50.8 180)
+					(length 2.54)
+					(name "USB3UP_TXDP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "96"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 53.34 180)
+					(length 2.54)
+					(name "USB3UP_TXDM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "97"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 55.88 180)
+					(length 2.54)
+					(name "VDD12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "98"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 58.42 180)
+					(length 2.54)
+					(name "USB3UP_RXDP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "99"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 60.96 180)
+					(length 2.54)
+					(name "USB3UP_RXDM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "100"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 48.26 63.5 180)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "101"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
 	)
 	(symbol
 		(lib_id "lcsc_easyeda:TFPUSH")
-		(at 195.58 140.97 0)
+		(at 372.11 210.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2335,10 +5440,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0941b447-418b-4287-b591-718e1e8f11cb")
-		(property "Reference" "Card1"
-			(at 208.28 139.6999 0)
+		(property "Reference" "microSD"
+			(at 378.46 214.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2349,7 +5453,8 @@
 			)
 		)
 		(property "Value" "TF PUSH"
-			(at 208.28 142.2399 0)
+			(at 384.81 212.0899 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2360,7 +5465,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_easyeda:TF-SMD_TF-PUSH"
-			(at 195.58 163.83 0)
+			(at 372.11 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2371,7 +5476,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Connector-Card-Sockets_SHOU-HAN-SHOU-HAN-TFDeck-TF-Deck_C393941.html"
-			(at 195.58 166.37 0)
+			(at 372.11 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2382,7 +5487,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 140.97 0)
+			(at 372.11 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2393,7 +5498,7 @@
 			)
 		)
 		(property "Manufacturer" "SHOU HAN(首韩)"
-			(at 195.58 168.91 0)
+			(at 372.11 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2404,7 +5509,7 @@
 			)
 		)
 		(property "MPN" "TF PUSH"
-			(at 195.58 171.45 0)
+			(at 372.11 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2415,7 +5520,7 @@
 			)
 		)
 		(property "LCSC Part" "C393941"
-			(at 195.58 173.99 0)
+			(at 372.11 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2467,15 +5572,15 @@
 		(instances
 			(project "USB_Hub_Schematic"
 				(path "/bd4df7b8-c39d-40e5-889a-b2256ac03812"
-					(reference "Card1")
+					(reference "microSD")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "lcsc_easyeda:TYPE-C16PIN2MD")
-		(at 224.79 49.53 0)
+		(lib_id "lcsc_easyeda:U-A-39SS-W-1")
+		(at 302.26 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2483,435 +5588,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23fe09d4-60ed-43b0-8f7d-214b83ba94a1")
-		(property "Reference" "USB2"
-			(at 227.33 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TYPE-C 16PIN 2MD"
-			(at 227.33 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc_easyeda:USB-C-SMD_TYPE-C-16PIN-2MD-073"
-			(at 224.79 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2765186.pdf"
-			(at 224.79 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 224.79 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "SHOU HAN(首韩)"
-			(at 224.79 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TYPE-C 16PIN 2MD(073)"
-			(at 224.79 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2765186"
-			(at 224.79 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "B1A12"
-			(uuid "5736b05d-eb11-46e6-af31-25b46a401fb3")
-		)
-		(pin "13"
-			(uuid "feeddbda-50b2-431b-a379-2f41a416766d")
-		)
-		(pin "B7"
-			(uuid "e877ff7f-8751-4f48-9b5b-f4e1119774cd")
-		)
-		(pin "B5"
-			(uuid "4885e002-e94e-49cc-ae3c-c93ca53e9509")
-		)
-		(pin "B4A9"
-			(uuid "569c5bae-20f4-4442-ba48-847cca4571ac")
-		)
-		(pin "A7"
-			(uuid "96e74b43-8bb4-4bcf-80bf-3e2972365500")
-		)
-		(pin "A6"
-			(uuid "258bb986-ede4-442d-85da-8399daa0ad82")
-		)
-		(pin "A4B9"
-			(uuid "7fed7d61-3669-479d-b26e-160fe32d4eea")
-		)
-		(pin "A8"
-			(uuid "a97ced13-ed2d-4059-a073-2041782d4ddb")
-		)
-		(pin "14"
-			(uuid "4c519fd4-c60f-4e68-8d4a-4e6e49687b18")
-		)
-		(pin "A1B12"
-			(uuid "030870f0-9600-4615-b5e0-caef43825627")
-		)
-		(pin "A5"
-			(uuid "edb55b60-2664-4fcb-9a15-c038a0e5aa01")
-		)
-		(pin "B8"
-			(uuid "d5c5c07b-69e3-48ee-a151-a1b39aad752a")
-		)
-		(pin "B6"
-			(uuid "49d3833a-e29e-4913-a09f-fcca972adbd2")
-		)
-		(instances
-			(project "USB_Hub_Schematic"
-				(path "/bd4df7b8-c39d-40e5-889a-b2256ac03812"
-					(reference "USB2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_easyeda:10.0QHHTZB6.3")
-		(at 223.52 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34a6c85a-874b-4831-a727-64d36a17926a")
-		(property "Reference" "USB4"
-			(at 234.95 95.2499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10.0 QHHTZB6.3"
-			(at 234.95 97.7899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lcsc_easyeda:USB-A-TH_10.0QHHTZB6.3"
-			(at 223.52 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C668591.pdf"
-			(at 223.52 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "SHOU HAN(首韩)"
-			(at 223.52 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "10.0 QHHTZB6.3"
-			(at 223.52 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C668591"
-			(at 223.52 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "99293606-2dc6-40c0-8144-5f39c890f8e1")
-		)
-		(pin "6"
-			(uuid "c90ffa46-07b1-488a-b257-2a6f97e4a37b")
-		)
-		(pin "4"
-			(uuid "b8d37cac-ab74-4ba6-9d7f-3b57f2e646e7")
-		)
-		(pin "3"
-			(uuid "b3c2b944-51b6-4420-af70-dc5a12c57906")
-		)
-		(pin "1"
-			(uuid "28accde3-b9bf-4f1a-a395-de1d68dba534")
-		)
-		(pin "5"
-			(uuid "5c62adb1-930a-4c00-a1a8-930327acb393")
-		)
-		(instances
-			(project "USB_Hub_Schematic"
-				(path "/bd4df7b8-c39d-40e5-889a-b2256ac03812"
-					(reference "USB4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_easyeda:TYPE-C16PIN2MD")
-		(at 158.75 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3bd28233-60d0-417f-a5cb-0e7f55dc89ec")
-		(property "Reference" "USB1"
-			(at 161.29 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TYPE-C 16PIN 2MD"
-			(at 161.29 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc_easyeda:USB-C-SMD_TYPE-C-16PIN-2MD-073"
-			(at 158.75 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2765186.pdf"
-			(at 158.75 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "SHOU HAN(首韩)"
-			(at 158.75 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TYPE-C 16PIN 2MD(073)"
-			(at 158.75 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2765186"
-			(at 158.75 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "B1A12"
-			(uuid "b8e87f74-fbe2-4e7c-b5c9-7f392d06bdaf")
-		)
-		(pin "13"
-			(uuid "f47d6c13-d1c2-4f3c-8b2f-0276854f4ddd")
-		)
-		(pin "B7"
-			(uuid "bd5a4cbd-19a6-4ff0-810e-4ba55a022a1f")
-		)
-		(pin "B5"
-			(uuid "12cdd617-0487-4c02-847c-e4282c3345fa")
-		)
-		(pin "B4A9"
-			(uuid "fc2c7943-6f98-4e8d-9cce-b64f3ca27c6c")
-		)
-		(pin "A7"
-			(uuid "dfdce19c-7a14-471a-a964-01f3d1d51655")
-		)
-		(pin "A6"
-			(uuid "c03b80c6-11d9-49ef-8ce0-4ab647bf1f00")
-		)
-		(pin "A4B9"
-			(uuid "bae2c2f8-437f-4f77-a4ff-13771aaee86f")
-		)
-		(pin "A8"
-			(uuid "c06bbf1a-31ee-449f-a160-1d044d11a08e")
-		)
-		(pin "14"
-			(uuid "c6fe5c40-2279-45a9-ab1a-03cb284ac815")
-		)
-		(pin "A1B12"
-			(uuid "5ddad22a-3677-47df-a8eb-9d29aa938e48")
-		)
-		(pin "A5"
-			(uuid "3d6d5212-8333-4249-b33d-8b1a11033151")
-		)
-		(pin "B8"
-			(uuid "63929f9f-408a-4d6b-855e-52f5b0926be3")
-		)
-		(pin "B6"
-			(uuid "a0345516-018b-4a9d-8e18-302db20809f1")
-		)
-		(instances
-			(project "USB_Hub_Schematic"
-				(path "/bd4df7b8-c39d-40e5-889a-b2256ac03812"
-					(reference "USB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_easyeda:10.0QHHTZB6.3")
-		(at 157.48 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8748151a-cb6f-4acc-b492-e3e903f1fc1d")
+		(uuid "5d2fcf9c-ea15-4c82-bf7e-9f9c8f48959d")
 		(property "Reference" "USB3"
-			(at 168.91 95.2499 0)
+			(at 312.42 129.5399 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2921,8 +5601,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10.0 QHHTZB6.3"
-			(at 168.91 97.7899 0)
+		(property "Value" "USB-A Female"
+			(at 304.8 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2932,8 +5612,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lcsc_easyeda:USB-A-TH_10.0QHHTZB6.3"
-			(at 157.48 115.57 0)
+		(property "Footprint" "lcsc_easyeda:USB-A-SMD_U-A-39SS-W-1"
+			(at 302.26 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2943,8 +5623,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C668591.pdf"
-			(at 157.48 118.11 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2689987.pdf"
+			(at 302.26 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2955,7 +5635,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 96.52 0)
+			(at 302.26 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2965,8 +5645,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "SHOU HAN(首韩)"
-			(at 157.48 120.65 0)
+		(property "Manufacturer" "韩国韩荣"
+			(at 302.26 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2976,8 +5656,8 @@
 				)
 			)
 		)
-		(property "MPN" "10.0 QHHTZB6.3"
-			(at 157.48 123.19 0)
+		(property "MPN" "U-A-39SS-W-1"
+			(at 302.26 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2987,8 +5667,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C668591"
-			(at 157.48 125.73 0)
+		(property "LCSC Part" "C2689987"
+			(at 302.26 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2997,24 +5677,39 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "a942dab8-a0ab-438c-8b70-545b020c7469")
-		)
-		(pin "6"
-			(uuid "c9b25373-4f38-4b0b-bc0f-172229ddc737")
 		)
 		(pin "4"
-			(uuid "866b0fa5-99ca-46f0-9e05-b7a612f64422")
+			(uuid "20973858-6bd7-470d-b5bc-34ce9591a181")
 		)
-		(pin "3"
-			(uuid "a3841c0d-9ff0-4252-bece-e51075e19850")
+		(pin "9"
+			(uuid "b8b54335-a659-4092-a862-8a88d6bc593f")
 		)
-		(pin "1"
-			(uuid "c1785d7c-85ae-4835-8bc7-4eed35fb0dc5")
+		(pin "6"
+			(uuid "1b76653e-9d96-4084-b805-fcc90ebc4ef5")
 		)
 		(pin "5"
-			(uuid "b56966c2-0632-4c96-ac44-2a5116629a06")
+			(uuid "a585c22f-7b95-4c7d-ab29-cbeda665cb5a")
+		)
+		(pin "3"
+			(uuid "ef22d323-13d8-46be-b624-fbe4c949fb65")
+		)
+		(pin "7"
+			(uuid "83338afe-24a3-4302-bbcb-a824e4ecea31")
+		)
+		(pin "8"
+			(uuid "8cb0b16e-db02-4cb3-9beb-2cde05535ccf")
+		)
+		(pin "1"
+			(uuid "5d2f62d9-64d9-4a7c-b1ee-a8607e1fdbf8")
+		)
+		(pin "10"
+			(uuid "4d09d68d-d670-4582-b0fd-ed283ce0d938")
+		)
+		(pin "11"
+			(uuid "4a6c2fb6-5e06-40c0-99ba-a9ac06ea4c90")
+		)
+		(pin "2"
+			(uuid "4630720e-b48f-426d-b199-1dbebf03be5e")
 		)
 		(instances
 			(project "USB_Hub_Schematic"
@@ -3026,8 +5721,8 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc_easyeda:CH339W_C25503971")
-		(at 85.09 97.79 0)
+		(lib_id "lcsc_easyeda:USB5807C_KD")
+		(at 201.93 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3035,30 +5730,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dae421fb-086a-41f1-bfb1-71d1dc1bf663")
+		(uuid "63c9041e-b051-4edf-8253-2092aa88c828")
 		(property "Reference" "U1"
-			(at 85.09 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CH339W_C25503971"
-			(at 85.09 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc_easyeda:QFN-68_L8.0-W8.0-P0.40-BL-EP5.5"
-			(at 85.09 148.59 0)
+			(at 200.66 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3068,8 +5742,29 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C25503971.pdf"
-			(at 85.09 151.13 0)
+		(property "Value" "Microchip"
+			(at 201.93 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_easyeda:VQFN-100_L12.0-W12.0-P0.40-TL-EP8.0"
+			(at 201.93 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C633968.pdf"
+			(at 201.93 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3080,7 +5775,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 97.79 0)
+			(at 201.93 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3090,8 +5785,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "WCH(南京沁恒)"
-			(at 85.09 153.67 0)
+		(property "Manufacturer" "MICROCHIP(美国微芯)"
+			(at 201.93 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3101,8 +5796,8 @@
 				)
 			)
 		)
-		(property "MPN" "CH339W"
-			(at 85.09 156.21 0)
+		(property "MPN" "USB5807C/KD"
+			(at 201.93 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3112,8 +5807,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25503971"
-			(at 85.09 158.75 0)
+		(property "LCSC Part" "C633968"
+			(at 201.93 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3122,218 +5817,1713 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "f3d621d4-8dca-4869-ad2b-2324f9c8e1c0")
-		)
-		(pin "16"
-			(uuid "4e1c940c-69d7-47f3-b435-79b5608c9c05")
-		)
-		(pin "4"
-			(uuid "642703ef-7772-44f4-83c6-d0f11d621864")
-		)
-		(pin "6"
-			(uuid "98fa700f-11ba-4cbb-8d0f-a1dd8c638338")
-		)
-		(pin "3"
-			(uuid "5133dc5c-93cf-4432-9684-6e8137be2570")
-		)
-		(pin "9"
-			(uuid "32f636f2-2fdc-4333-bcd2-a17a1b5baba3")
-		)
-		(pin "12"
-			(uuid "2f6ed751-d0ca-40c7-922f-65ca33a042a4")
-		)
-		(pin "13"
-			(uuid "f153f41a-d8f7-4639-9418-63f838e1c37e")
-		)
-		(pin "2"
-			(uuid "e474b82e-389d-4061-a1ee-219f9aa99a74")
-		)
-		(pin "28"
-			(uuid "310fae2a-36c3-4ae6-a860-81dd9016c4a1")
-		)
-		(pin "10"
-			(uuid "63ad96ce-cd9b-47f8-a016-35148f74bc2f")
-		)
-		(pin "7"
-			(uuid "24e9d1d3-8522-47ce-88b2-c8ce21b90b3d")
-		)
-		(pin "5"
-			(uuid "0677c921-6189-4c45-a2cd-bf10e3b32299")
 		)
 		(pin "11"
-			(uuid "f35ccc73-e18a-4864-adce-8b97d2b17900")
+			(uuid "c74489c7-7331-417f-9905-c66f65f905d8")
 		)
-		(pin "14"
-			(uuid "d2ac69d3-2e55-4e30-b7a6-908249bb647f")
+		(pin "10"
+			(uuid "9348a7a6-8753-4351-8418-b125625698fc")
 		)
-		(pin "15"
-			(uuid "7f8f846a-b288-484f-9354-9dd4abd86a94")
+		(pin "13"
+			(uuid "aa6010e5-deb9-4de0-9635-5b69eb7b3e6d")
+		)
+		(pin "3"
+			(uuid "3dd992af-14e9-4573-abf7-b6b0fb68cf76")
 		)
 		(pin "8"
-			(uuid "f0ba1b95-3836-45c6-85a2-54bb9e46a595")
-		)
-		(pin "17"
-			(uuid "b5cd1252-b9d6-413b-8fd4-5e38f63a4ddc")
-		)
-		(pin "19"
-			(uuid "7322b09e-75c2-4d10-bd31-e0e909ecb94a")
-		)
-		(pin "18"
-			(uuid "0ae96a20-2ca3-4a4f-9041-b88306575eec")
-		)
-		(pin "21"
-			(uuid "e1ec12bf-6335-4d5d-a881-8f4d5e94e8b0")
-		)
-		(pin "24"
-			(uuid "001820a2-cb67-4287-9227-32ecf59acda6")
-		)
-		(pin "20"
-			(uuid "0b1b5a60-b552-47a9-b234-dbbc450f2fdf")
-		)
-		(pin "23"
-			(uuid "0bc0bc8f-cb74-4836-a96d-aa4911e45aa8")
-		)
-		(pin "22"
-			(uuid "66f787ff-1a42-440b-a384-835d84c3ff4c")
-		)
-		(pin "25"
-			(uuid "dc3f569d-3a99-413a-86c8-5f40b26242cb")
-		)
-		(pin "26"
-			(uuid "e90e7902-eede-4c56-a888-0d4e0015eac0")
+			(uuid "4c01aeba-ee96-4ccf-bc7b-3f23fd7f3ec5")
 		)
 		(pin "27"
-			(uuid "aecbe779-544a-4643-8d52-2d71c3f267ec")
+			(uuid "45d239ec-bdd4-4989-adcd-22cced0a8097")
 		)
-		(pin "46"
-			(uuid "c43401ef-5880-4e9b-ac4a-eb4e343d8a60")
+		(pin "9"
+			(uuid "c4227073-ea41-45b8-9f9b-348647f59b0e")
 		)
-		(pin "52"
-			(uuid "2a99a50e-a583-4f9c-a36e-027ffd7679b3")
+		(pin "16"
+			(uuid "cbd0e848-ca47-4f68-8126-cf29efa746ef")
 		)
-		(pin "54"
-			(uuid "7be2375b-8230-452f-b3de-6b45af2a2f99")
+		(pin "21"
+			(uuid "7160163e-12c7-492e-b74f-8537593da426")
 		)
-		(pin "48"
-			(uuid "e205bcef-b5e8-402b-b80a-cceee8c9adb0")
+		(pin "19"
+			(uuid "12b1cac3-ab00-42d0-b19c-4b654f5916c0")
 		)
-		(pin "33"
-			(uuid "4165d2c6-2828-4559-992b-4d9452e50000")
-		)
-		(pin "38"
-			(uuid "8c2f7c25-8d69-4db4-85e1-81a72ad69dca")
-		)
-		(pin "31"
-			(uuid "b6231a94-f09a-4315-85ae-df8a02002628")
-		)
-		(pin "30"
-			(uuid "50261d4a-3582-4ff4-af7a-2ec3c6a24646")
-		)
-		(pin "29"
-			(uuid "9e5e53ce-06f3-4568-a4bd-37c44e3aae29")
-		)
-		(pin "36"
-			(uuid "b78474fe-e0dc-4e53-b8d7-bdd1ac9fd4d3")
-		)
-		(pin "37"
-			(uuid "62c886a7-7417-410f-9a61-f3d118b5c5d4")
-		)
-		(pin "40"
-			(uuid "3cab1374-ee47-44b7-873d-ce0c10cce0e3")
-		)
-		(pin "44"
-			(uuid "2b93b6e9-6658-4749-a983-5bfb528446cf")
-		)
-		(pin "45"
-			(uuid "4d6c47f1-1531-40aa-ade3-afb015e5fa39")
-		)
-		(pin "49"
-			(uuid "b9b82305-a017-442e-bb56-07a871749270")
-		)
-		(pin "39"
-			(uuid "2ed6d7b5-06a1-468b-8c6d-31d01326d298")
-		)
-		(pin "32"
-			(uuid "2024279d-6e06-475b-a49d-3719553a1e3a")
-		)
-		(pin "34"
-			(uuid "ace2506d-e91e-406b-aa51-6a67894e903f")
-		)
-		(pin "43"
-			(uuid "ff6895d5-6405-4e26-83a7-fad9ae27a76c")
+		(pin "14"
+			(uuid "de1eeafc-ef62-4bc1-98d8-2740e3a1a300")
 		)
 		(pin "35"
-			(uuid "962753df-2178-4d93-9ebe-8204519ecbcb")
+			(uuid "ccd31826-cd8b-4009-8d65-fa56054fd9ae")
 		)
-		(pin "42"
-			(uuid "a758dd4b-ba00-4ecf-b504-6f16d871a2c1")
+		(pin "20"
+			(uuid "7c11009a-dfdb-428e-8c24-f1c9d916caa2")
 		)
-		(pin "47"
-			(uuid "bc774f8b-e5c5-493b-ac12-300b447744c8")
+		(pin "22"
+			(uuid "abb2e8ce-bffd-447d-8742-18b51129962e")
 		)
-		(pin "41"
-			(uuid "dfe30e64-1b87-4946-804f-2f4c2fc4e44c")
+		(pin "17"
+			(uuid "a8980794-7b92-439c-939c-1294b0483ddb")
 		)
-		(pin "50"
-			(uuid "2e011af4-87a7-460f-ad35-e770e2046f02")
+		(pin "6"
+			(uuid "4ec8966d-c44e-48e2-9c46-1345a4052d6c")
 		)
-		(pin "51"
-			(uuid "1b57f4c0-4bb6-49e9-94c4-395a1f6533ef")
+		(pin "1"
+			(uuid "ece54d17-cbde-4823-8497-fe0dd90afa39")
 		)
-		(pin "53"
-			(uuid "932e1f43-6b37-4b96-a937-d5d5ea547db5")
+		(pin "5"
+			(uuid "f1421055-5d31-43e1-9240-68d90e81d8fb")
 		)
-		(pin "59"
-			(uuid "56037b25-b0ef-4877-a467-7acbb9d8875c")
+		(pin "15"
+			(uuid "2c06107d-b87c-4796-9daa-a79cd4542d4a")
 		)
-		(pin "61"
-			(uuid "fdd5eeb5-0e18-46d0-b353-fc619febeb1a")
+		(pin "23"
+			(uuid "0c10dd9f-65ac-4909-9e1f-21556b4f4fa3")
 		)
-		(pin "56"
-			(uuid "abb0cc9d-0193-4d9b-b3b7-b1e6f18b22d7")
+		(pin "4"
+			(uuid "2fabd67b-7227-45c6-bc58-8383f40d22b8")
+		)
+		(pin "2"
+			(uuid "15b9c82e-87bd-4a6a-96d0-cdc053d52415")
+		)
+		(pin "7"
+			(uuid "d3887438-18e9-48f8-8c16-0248b040a8aa")
+		)
+		(pin "12"
+			(uuid "7047a8bc-7686-4a06-bca7-4686ef47b6e7")
+		)
+		(pin "18"
+			(uuid "290504e4-cf9c-451a-b67f-5c78dec3a685")
+		)
+		(pin "24"
+			(uuid "a1653002-f226-4168-9055-812201afcef2")
+		)
+		(pin "25"
+			(uuid "9910377b-9e75-4dc3-b06b-ff7d8c4243e9")
+		)
+		(pin "26"
+			(uuid "1284a155-3fdb-412a-bb3b-b8e7bf99765d")
+		)
+		(pin "28"
+			(uuid "572bf88c-2e30-4362-9c67-72bcc4527e82")
+		)
+		(pin "29"
+			(uuid "bf44a390-4a84-4db4-9fce-a11836f09c25")
+		)
+		(pin "30"
+			(uuid "bf2832c2-0c10-402a-ae3e-0cdba7d6cbd6")
+		)
+		(pin "31"
+			(uuid "10bc30e1-1196-48f9-a60b-98588065843a")
+		)
+		(pin "32"
+			(uuid "eab4b859-0d44-4629-92b6-9c5425ec64ba")
+		)
+		(pin "33"
+			(uuid "32684b4c-6344-400e-bc21-3cdfdd12cdf6")
+		)
+		(pin "34"
+			(uuid "20a3dd97-c2df-4b20-9d01-dff11b9bc0d4")
 		)
 		(pin "58"
-			(uuid "bc453545-488d-4eed-867d-bf410d6c551c")
+			(uuid "5d76fa8d-73de-4320-88fd-860d813018cc")
 		)
-		(pin "69"
-			(uuid "7759251a-c6e9-4c0b-832e-5de96b6cf274")
+		(pin "36"
+			(uuid "467effe9-a1da-492b-a306-c5e8637d828c")
 		)
-		(pin "55"
-			(uuid "758f0a89-d62c-42f9-9a60-8ef2b1f9dc03")
+		(pin "38"
+			(uuid "eea5bfb8-8597-4793-8c90-ef5ef8ef5fab")
 		)
-		(pin "60"
-			(uuid "55c22be4-69da-4343-8341-e6cdb1142f1a")
+		(pin "51"
+			(uuid "a9aa7f76-cdbc-48e7-8359-e00f456b1c29")
+		)
+		(pin "43"
+			(uuid "f783f548-b057-4062-b775-282ca66144a5")
+		)
+		(pin "52"
+			(uuid "2d913162-f536-4ac9-a60b-60c4473ab8eb")
+		)
+		(pin "47"
+			(uuid "6693180b-3349-43b6-9f22-50b8a0723779")
 		)
 		(pin "64"
-			(uuid "f02c7c05-cf31-41d4-b8a7-1720b5d87345")
+			(uuid "57123c09-62da-44cb-b8f2-36e903d1f212")
 		)
-		(pin "68"
-			(uuid "4789cc79-f098-4707-bf8c-fcd1bea6c62f")
+		(pin "45"
+			(uuid "515e72f8-a619-4ace-8ca9-2e74d95dbc85")
 		)
-		(pin "65"
-			(uuid "1d94d32c-3791-4d95-ab93-5811ff6a77df")
+		(pin "46"
+			(uuid "bfee1cd2-5108-4127-b21f-5430f9f97482")
 		)
-		(pin "63"
-			(uuid "23bcc1e6-6e29-4b19-8be4-1b98e634da4c")
+		(pin "53"
+			(uuid "1734e1ab-60cb-4b04-b066-85e40e4d5c87")
 		)
-		(pin "66"
-			(uuid "0bd51278-881c-41f5-8f30-44e21c387b8c")
+		(pin "55"
+			(uuid "dc5a4537-7e22-4011-9263-448fdfedeefc")
+		)
+		(pin "37"
+			(uuid "f3e8591c-9a79-46b1-897b-12d8a4100566")
+		)
+		(pin "49"
+			(uuid "c21149d4-fe87-43b6-81a7-dbaa3a06bd8a")
+		)
+		(pin "54"
+			(uuid "afbaa83e-72cb-4d00-8e50-d7b18ea27281")
+		)
+		(pin "40"
+			(uuid "485051f6-8f0c-40ef-8c73-5c49ac014063")
 		)
 		(pin "57"
-			(uuid "71bb75da-d45f-4ba6-a2f1-69e671726577")
+			(uuid "ea305495-2332-441e-82ae-89e1adc6eaa2")
+		)
+		(pin "48"
+			(uuid "51ff3f45-75ac-4313-a426-c8f090507a76")
+		)
+		(pin "39"
+			(uuid "4609a5da-65a9-4ac5-9b4c-49ab1046506a")
+		)
+		(pin "41"
+			(uuid "2f385aaa-be9d-47b4-8694-9d20b82cc0a8")
+		)
+		(pin "42"
+			(uuid "ab51341c-be64-4e2f-80e8-5090af1330cd")
+		)
+		(pin "44"
+			(uuid "85804565-f4c7-47d4-b4d9-0eacfaf985cd")
+		)
+		(pin "50"
+			(uuid "6d30b341-7da3-45c2-8c16-02d7902c9564")
+		)
+		(pin "56"
+			(uuid "f597a547-8d05-4cb5-9d1a-69faa32e8acf")
+		)
+		(pin "59"
+			(uuid "1e63145a-96f3-4b90-b535-1145ba5defba")
+		)
+		(pin "60"
+			(uuid "1c9dd539-d69b-48a6-ae6a-b1130e5e8fc8")
+		)
+		(pin "61"
+			(uuid "7ab377dc-e988-4318-9211-3bf7d38154f3")
 		)
 		(pin "62"
-			(uuid "6d7e0926-3d45-4840-93e4-54a2b6e91283")
+			(uuid "1d644b72-9dc0-4e2c-ad36-698b7e90ca08")
+		)
+		(pin "63"
+			(uuid "c462a5ef-567e-4996-9541-e5bf5b9e3e2d")
+		)
+		(pin "65"
+			(uuid "c7b975ef-2b82-492f-bd69-7d0d991e6979")
+		)
+		(pin "81"
+			(uuid "96297541-1962-4727-8604-d851e8b56149")
+		)
+		(pin "66"
+			(uuid "4d1cc12c-7b37-44e9-b427-0a0cb51eb596")
+		)
+		(pin "68"
+			(uuid "f9dfeade-551a-42a1-91c8-69186789b336")
+		)
+		(pin "69"
+			(uuid "f2d4a0f1-8e05-438d-acfb-2898cae695b4")
+		)
+		(pin "73"
+			(uuid "3f1095af-1485-4f82-b093-503f527ac567")
+		)
+		(pin "75"
+			(uuid "e520b146-652f-49b6-9ce8-24124a2326b4")
+		)
+		(pin "72"
+			(uuid "371921d8-cffa-40ae-a87b-354f3bef8d3d")
+		)
+		(pin "70"
+			(uuid "3539fde3-4ab1-4370-bd29-e38558f62aec")
+		)
+		(pin "71"
+			(uuid "ae425bdd-f1c6-4107-8210-514ef096f3a7")
+		)
+		(pin "76"
+			(uuid "1ef7da5e-4401-4115-9665-7cc5f166ba12")
+		)
+		(pin "74"
+			(uuid "c6fe83c3-4ad4-4a0c-8648-ca42010d7dce")
 		)
 		(pin "67"
-			(uuid "5e8f0ccb-5a58-40e2-b2da-de6f6afa2eb7")
+			(uuid "2f5c0d1c-8508-4537-89d4-05a919cc1e72")
+		)
+		(pin "77"
+			(uuid "5ed310b8-0070-401d-985d-66a6d8bdff7f")
+		)
+		(pin "78"
+			(uuid "55b9acf5-4200-4259-a5cf-f3da204a11fc")
+		)
+		(pin "79"
+			(uuid "a9dc7950-5da5-41e7-96c2-89a6df6deb8c")
+		)
+		(pin "80"
+			(uuid "0640986c-2ec8-4ec9-916d-fe7f39ab7be9")
+		)
+		(pin "97"
+			(uuid "2bd01c05-ed79-4b1c-bfc1-c1407a66fb99")
+		)
+		(pin "94"
+			(uuid "28ff13f8-8dc3-43d5-86a2-72517f7469c2")
+		)
+		(pin "98"
+			(uuid "ab97ad60-2e97-4472-a2ec-645b747f9ad6")
+		)
+		(pin "95"
+			(uuid "4a12c1c0-4173-4f32-8137-962e67aadbdb")
+		)
+		(pin "84"
+			(uuid "a3111fca-9d74-4d21-8ad0-63aa86ac3b81")
+		)
+		(pin "85"
+			(uuid "672c5ed0-d0a3-44cd-a342-d99c5fb68659")
+		)
+		(pin "90"
+			(uuid "802163c0-a564-439c-8c45-1a24a7b87470")
+		)
+		(pin "92"
+			(uuid "c565565d-54ad-4447-9dc1-091536951731")
+		)
+		(pin "93"
+			(uuid "6e173219-1fe0-4eec-94c2-c1b5bb7c00b1")
+		)
+		(pin "96"
+			(uuid "8ea0f003-c592-4ca6-ade0-c48af6506aca")
+		)
+		(pin "87"
+			(uuid "41e3bab9-88d8-42c3-8cb7-86a8a71534be")
+		)
+		(pin "100"
+			(uuid "49fc5c01-eefb-4414-af94-9efbd5c4635f")
+		)
+		(pin "88"
+			(uuid "f55bcee7-4c04-42d8-b122-458df012d5b9")
+		)
+		(pin "91"
+			(uuid "2af779f6-a1c2-4e22-beaa-8deec9b9e078")
+		)
+		(pin "99"
+			(uuid "1249fea1-448a-4c16-8f2b-9502144e2a42")
+		)
+		(pin "101"
+			(uuid "0367a895-5b0a-44a2-ab1d-2ac49c888837")
+		)
+		(pin "82"
+			(uuid "00c286c9-4ad6-435b-80fe-6ea4ad6ae5d4")
+		)
+		(pin "86"
+			(uuid "05478976-e8e6-4db2-9ac8-12fd80ef8481")
+		)
+		(pin "83"
+			(uuid "307b812b-abc8-427a-8ec9-511ebe8a50f5")
+		)
+		(pin "89"
+			(uuid "40c97f7e-d44c-4ea5-a021-4fb558013a8a")
 		)
 		(instances
 			(project "USB_Hub_Schematic"
 				(path "/bd4df7b8-c39d-40e5-889a-b2256ac03812"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_easyeda:GL3224-OIY04")
+		(at 306.07 201.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1e9b355-8005-467a-8b8d-8696d0a5bcef")
+		(property "Reference" "U6"
+			(at 306.07 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SD Reader"
+			(at 307.34 201.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_easyeda:HQFN-32_L5.0-W5.0-P0.50-BL-EP3.0"
+			(at 306.07 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/USB_GENESYS_GL3224-OIY04_GL3224-OIY04_C157357.html"
+			(at 306.07 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 306.07 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "GENESYS(创惟)"
+			(at 306.07 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GL3224-OIY04"
+			(at 306.07 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C157357"
+			(at 306.07 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "a9236e3d-03e7-4aa2-9d8c-b1374b88f5e0")
+		)
+		(pin "2"
+			(uuid "cd55ef46-28ad-42e5-8de4-27c8f05a340b")
+		)
+		(pin "9"
+			(uuid "7a0cbe57-41fb-4f4d-b2b7-eb22ac783cf2")
+		)
+		(pin "6"
+			(uuid "b77e8b35-952c-41a7-9334-28365d2c8d05")
+		)
+		(pin "7"
+			(uuid "feb9842f-74ba-4f73-8a6d-fb552299974f")
+		)
+		(pin "10"
+			(uuid "cf77bc4b-8396-4a98-9c46-fcc703f45cf8")
+		)
+		(pin "15"
+			(uuid "ef26b021-d22b-4a16-a9c2-cbff53af7e62")
+		)
+		(pin "4"
+			(uuid "478c2fc5-7574-4f23-bb72-3392a2ba3e33")
+		)
+		(pin "13"
+			(uuid "707b6325-6be6-4fa4-8b9b-a617c17467b0")
+		)
+		(pin "17"
+			(uuid "277d7e59-9e97-40ac-adb9-492c66b717f2")
+		)
+		(pin "18"
+			(uuid "02016d7c-a548-4319-bf2a-95b0dab4b681")
+		)
+		(pin "5"
+			(uuid "fcb45e05-5774-4c27-ac60-96e1ae2baf70")
+		)
+		(pin "14"
+			(uuid "e3a3919c-d25b-45db-b27a-0a2e23f08b76")
+		)
+		(pin "19"
+			(uuid "afc67296-134f-4608-abd6-88ac0ac669e5")
+		)
+		(pin "20"
+			(uuid "daf994c9-e282-448c-aeb6-327bc4778a82")
+		)
+		(pin "8"
+			(uuid "1151342c-a709-4f31-b8e5-91859baf6cfb")
+		)
+		(pin "12"
+			(uuid "064ed474-131a-408c-8efa-4bcbfa710e9b")
+		)
+		(pin "21"
+			(uuid "d8af82f1-386d-4898-a5ad-e32638a306e2")
+		)
+		(pin "16"
+			(uuid "8f414606-75dc-4a91-940d-1aae9f5cf778")
+		)
+		(pin "22"
+			(uuid "051f8151-b05a-4a3d-bff4-2cd32a0a6c69")
+		)
+		(pin "23"
+			(uuid "ae4e2437-5b5e-4c03-b2ac-16d480c5cdd2")
+		)
+		(pin "11"
+			(uuid "249a3364-8ef8-4abf-a315-c2f9f3b723ee")
+		)
+		(pin "26"
+			(uuid "9f63e8be-c41b-44fd-a2c9-af7f892a195b")
+		)
+		(pin "25"
+			(uuid "6c4fb8d6-b2bc-4916-a338-1bc0bd575948")
+		)
+		(pin "29"
+			(uuid "04b2b873-d643-4dee-8317-a7b731fad199")
+		)
+		(pin "33"
+			(uuid "f5672ace-a55b-4b2e-a462-26e4b4f92086")
+		)
+		(pin "28"
+			(uuid "36ca32ca-a5e6-4945-ac74-4e1ba10279ec")
+		)
+		(pin "27"
+			(uuid "6b8fd724-9e83-4d77-bd72-d12b43535f32")
+		)
+		(pin "31"
+			(uuid "dc369647-a923-4fd9-94db-0811549b0f97")
+		)
+		(pin "30"
+			(uuid "d2aaecf3-9617-45a4-b98d-ea64041a3be6")
+		)
+		(pin "24"
+			(uuid "166851f3-d5fc-4257-90dc-868f19dc3210")
+		)
+		(pin "32"
+			(uuid "697fe090-deb3-40f5-bfd9-817a56b3e9f1")
+		)
+		(pin "1"
+			(uuid "07cc54ae-7f08-490d-bc54-3143342bf7ec")
+		)
+		(instances
+			(project "USB_Hub_Schematic"
+				(path "/bd4df7b8-c39d-40e5-889a-b2256ac03812"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_easyeda:HD3SS3212IRKSR")
+		(at 104.14 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "acd2bfa0-afe5-4625-b35d-d30c5fbfc3af")
+		(property "Reference" "U4"
+			(at 104.14 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Multiplexer"
+			(at 104.14 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_easyeda:DHVQFN-20_L4.5-W2.5-P0.50-BL-EP"
+			(at 104.14 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C544517.pdf"
+			(at 104.14 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI(德州仪器)"
+			(at 104.14 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "HD3SS3212IRKSR"
+			(at 104.14 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C544517"
+			(at 104.14 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "488d8408-f40c-4b98-aec4-289a7a9ecd5b")
+		)
+		(pin "10"
+			(uuid "471421e7-c4e6-4743-8c5b-ae7f34900ac4")
+		)
+		(pin "15"
+			(uuid "ecaa68d4-d01b-426c-a5d2-dc3d6e80c810")
+		)
+		(pin "17"
+			(uuid "b2d46289-096e-4c82-8e0c-bd82184686cf")
+		)
+		(pin "21"
+			(uuid "17e88e96-4058-4376-82be-d65c71a5ac87")
+		)
+		(pin "13"
+			(uuid "d7524bf4-b9cb-422b-a7b2-ec072a06fd23")
+		)
+		(pin "19"
+			(uuid "89b078c0-aaf8-4038-99ba-7ba0a1909c74")
+		)
+		(pin "20"
+			(uuid "fc211c5e-043d-473e-8137-fd86ea0b0210")
+		)
+		(pin "6"
+			(uuid "568477f5-b508-4769-9f62-8ee07d64e39b")
+		)
+		(pin "9"
+			(uuid "98bbd1df-8f96-43fc-8580-8061f24ef7dd")
+		)
+		(pin "5"
+			(uuid "1d9be889-588c-4dc3-94ae-f08f95420e4b")
+		)
+		(pin "3"
+			(uuid "7280c21c-9c1c-4098-8606-fa4928950817")
+		)
+		(pin "18"
+			(uuid "b8e687ee-0e28-4f54-b2d3-0762c5a27247")
+		)
+		(pin "12"
+			(uuid "1fa045b6-fd15-4ff2-a02b-48a389705eb3")
+		)
+		(pin "14"
+			(uuid "0b556126-43e2-42f7-a265-6c6cd0b57c6c")
+		)
+		(pin "7"
+			(uuid "64c36185-3ee5-4a6f-8e88-e358848cc92d")
+		)
+		(pin "1"
+			(uuid "e27de2e3-830d-4059-9b4d-cb0fa3468583")
+		)
+		(pin "2"
+			(uuid "d234bb00-68f6-4303-bd44-e3aa9b438655")
+		)
+		(pin "8"
+			(uuid "3d2256c6-9d09-4e9c-a019-a18f84f6a921")
+		)
+		(pin "11"
+			(uuid "b73aa2b6-44c2-4ec8-964a-d387c705aa23")
+		)
+		(pin "16"
+			(uuid "5dbc7a1f-3b1d-4ef7-b247-a08349511c49")
+		)
+		(instances
+			(project "USB_Hub_Schematic"
+				(path "/bd4df7b8-c39d-40e5-889a-b2256ac03812"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_easyeda:U-A-39SS-W-1")
+		(at 372.11 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b7d04248-9552-4016-8ea6-87e3e722b18f")
+		(property "Reference" "USB4"
+			(at 382.27 129.5399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USB-A Female"
+			(at 374.65 137.16 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc_easyeda:USB-A-SMD_U-A-39SS-W-1"
+			(at 372.11 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2689987.pdf"
+			(at 372.11 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "韩国韩荣"
+			(at 372.11 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "U-A-39SS-W-1"
+			(at 372.11 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2689987"
+			(at 372.11 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "09791e3c-279a-476f-8153-d9b738917116")
+		)
+		(pin "9"
+			(uuid "8b44b5f5-7e1c-4d5e-90e8-b2fac755264c")
+		)
+		(pin "6"
+			(uuid "b8e4a0ab-44dc-4bab-83a9-bf4b18938a1c")
+		)
+		(pin "5"
+			(uuid "c647ae16-f0a9-45b9-9446-2805948f321a")
+		)
+		(pin "3"
+			(uuid "787ecd86-cde1-4283-874c-b1a755ba0ec4")
+		)
+		(pin "7"
+			(uuid "87e1f65c-3c35-4f2b-a047-f544e3bb1352")
+		)
+		(pin "8"
+			(uuid "2ae81a9d-3970-4dd8-a800-61375b5c79fe")
+		)
+		(pin "1"
+			(uuid "f614a4cf-c82d-4f82-a749-ea5c4b13fb8c")
+		)
+		(pin "10"
+			(uuid "e8ccf01e-49ad-4083-ac4b-3eb64398f0eb")
+		)
+		(pin "11"
+			(uuid "363270ba-d769-4f50-bd6b-105509a00edd")
+		)
+		(pin "2"
+			(uuid "b1399343-36b8-40fb-96d9-502fe7dadf1d")
+		)
+		(instances
+			(project "USB_Hub_Schematic"
+				(path "/bd4df7b8-c39d-40e5-889a-b2256ac03812"
+					(reference "USB4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_easyeda:HC-USB3.0-C26")
+		(at 48.26 213.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c1d3e4a0-d743-404d-a6f9-3d9541ccfb02")
+		(property "Reference" "U3"
+			(at 62.23 212.0899 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USB-A Male"
+			(at 55.88 219.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc_easyeda:USB-3.0-A-SMD_HC-USB3.0-C26"
+			(at 48.26 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7501854.pdf"
+			(at 48.26 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HC(虹成电子)"
+			(at 48.26 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "HC-USB3.0-C26"
+			(at 48.26 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C7501854"
+			(at 48.26 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "a68be031-b3ff-467d-ad76-b89c8401f45d")
+		)
+		(pin "2"
+			(uuid "3345a9b9-c6b3-45d4-b285-5549bd039a95")
+		)
+		(pin "3"
+			(uuid "859f0e7b-6ba5-4a8e-98c1-7735a3ddd5a3")
+		)
+		(pin "1"
+			(uuid "f63c4384-7cbb-47a1-87b1-ac2c60ef18da")
+		)
+		(pin "4"
+			(uuid "524b089e-6183-4265-b5de-ef04edf2df89")
+		)
+		(pin "9"
+			(uuid "43cf3aa4-5965-4dbd-95c7-db2e4f02728a")
+		)
+		(pin "10"
+			(uuid "c2eb5521-d15c-4cd4-b0df-41cb17c6ce21")
+		)
+		(pin "11"
+			(uuid "8fd05d26-899f-45e5-8104-1ac584d9ae02")
+		)
+		(pin "6"
+			(uuid "a9f64415-3dc9-4883-80ad-055625606f92")
+		)
+		(pin "7"
+			(uuid "0c86f88d-fef9-45e7-adeb-a03c99cf786a")
+		)
+		(pin "5"
+			(uuid "e6f491d2-b97f-4043-8ad8-c688312d2b73")
+		)
+		(instances
+			(project "USB_Hub_Schematic"
+				(path "/bd4df7b8-c39d-40e5-889a-b2256ac03812"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_easyeda:HD3SS3212IRKSR")
+		(at 102.87 213.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c2af86e1-cc70-4a9a-8026-8dca1fe98f9f")
+		(property "Reference" "U5"
+			(at 102.87 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Multiplexer"
+			(at 102.87 212.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_easyeda:DHVQFN-20_L4.5-W2.5-P0.50-BL-EP"
+			(at 102.87 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C544517.pdf"
+			(at 102.87 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI(德州仪器)"
+			(at 102.87 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "HD3SS3212IRKSR"
+			(at 102.87 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C544517"
+			(at 102.87 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "df67d4ae-37f0-4954-8dab-cdb982d82726")
+		)
+		(pin "10"
+			(uuid "3353a66d-c44e-440c-bca3-d909e7da1840")
+		)
+		(pin "15"
+			(uuid "251b9b7a-98b6-48d0-8ccd-d99624f1478e")
+		)
+		(pin "17"
+			(uuid "2b3ce306-ce6d-499a-b45e-85ad6eda4edc")
+		)
+		(pin "21"
+			(uuid "84d99a32-ae7b-4417-befa-52c19c526a27")
+		)
+		(pin "13"
+			(uuid "69ce7812-25d4-42b3-bdde-f57c51908c33")
+		)
+		(pin "19"
+			(uuid "23175211-1d8d-45e5-96df-2d83d0dff22e")
+		)
+		(pin "20"
+			(uuid "29d3a535-9d42-4e92-b0fa-9114a14bf0cb")
+		)
+		(pin "6"
+			(uuid "0789aa2f-ebd7-4db9-ad1d-e0e9c770e764")
+		)
+		(pin "9"
+			(uuid "11d2e00d-3679-4262-a36d-8c06bd65f6ea")
+		)
+		(pin "5"
+			(uuid "b28ff428-cba3-4b28-a80f-e4e4300b9bf3")
+		)
+		(pin "3"
+			(uuid "14f1387d-0b0e-4668-9bcc-9420bb240fd5")
+		)
+		(pin "18"
+			(uuid "e0ecdfeb-95dc-456d-a3e9-23193acd124d")
+		)
+		(pin "12"
+			(uuid "160c57b4-10f7-4005-9118-c1a3ac1b2a16")
+		)
+		(pin "14"
+			(uuid "53d44543-c17b-4a11-b1c7-694b56e4be93")
+		)
+		(pin "7"
+			(uuid "1b9488d4-21aa-43dd-97ba-bd7915833e99")
+		)
+		(pin "1"
+			(uuid "78d39fe2-1b71-4540-b70b-567bd80b5a9e")
+		)
+		(pin "2"
+			(uuid "b7bc2303-cafc-4080-a9a2-52222f3a3cb6")
+		)
+		(pin "8"
+			(uuid "f074ca8a-367d-4556-8bbe-0b4cdf922c27")
+		)
+		(pin "11"
+			(uuid "b4a3e450-3592-40b4-a4fb-10cb3c372a64")
+		)
+		(pin "16"
+			(uuid "5f1ea245-5cdf-49d8-855a-99dd9bd17b88")
+		)
+		(instances
+			(project "USB_Hub_Schematic"
+				(path "/bd4df7b8-c39d-40e5-889a-b2256ac03812"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_easyeda:TYPE-C24PQT143")
+		(at 303.53 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cf6e2736-a7e0-4eda-a874-d2f671fae278")
+		(property "Reference" "USB1"
+			(at 303.53 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB-C Female"
+			(at 303.53 46.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_easyeda:TYPE-C-SMD_C9900025773"
+			(at 303.53 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156605.pdf"
+			(at 303.53 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 303.53 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN(首韩)"
+			(at 303.53 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TYPE-C 24P QT 143"
+			(at 303.53 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5156605"
+			(at 303.53 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "B7"
+			(uuid "17765bf7-c19f-48ce-91de-75d78dfd2183")
+		)
+		(pin "A6"
+			(uuid "7b0f48d2-43fe-40c3-8bb5-381e48b0b56b")
+		)
+		(pin "B9"
+			(uuid "c5fe6a96-0cbf-4c24-b2f4-3b8ca941d940")
+		)
+		(pin "A12"
+			(uuid "251d4b62-1c9e-44cc-b6fc-63c90f92a6c9")
+		)
+		(pin "A3"
+			(uuid "ce43f9f6-65e5-43e9-866f-478ae28d6aab")
+		)
+		(pin "A4"
+			(uuid "38ebfe66-cf2c-41cf-a7b8-6f8aea5ad172")
+		)
+		(pin "A5"
+			(uuid "9a8944e7-8715-4dd9-8f70-0fc3a8ca3486")
+		)
+		(pin "16"
+			(uuid "e93a6daf-81ed-4c22-a7ae-8054f742b60f")
+		)
+		(pin "18"
+			(uuid "3f6c18f9-b076-4668-82be-1587440d411f")
+		)
+		(pin "17"
+			(uuid "f9a4b70e-70c8-4f52-8ced-a492896363d5")
+		)
+		(pin "A2"
+			(uuid "e8f196e5-5202-4e3f-869e-d7c591294330")
+		)
+		(pin "A7"
+			(uuid "dff5ea62-5006-459f-9f8d-b96cf88899ac")
+		)
+		(pin "A8"
+			(uuid "4d3a36e8-4ad7-45bc-973e-4f8fb897d6a6")
+		)
+		(pin "A10"
+			(uuid "0c0ac0f7-1bca-4203-9530-97a8c3745c52")
+		)
+		(pin "A11"
+			(uuid "ef9c86b4-4aa8-4302-875d-e4c77a79cf63")
+		)
+		(pin "B1"
+			(uuid "fcf2e540-d4fc-4e94-85fd-636187284cc4")
+		)
+		(pin "A9"
+			(uuid "cfe6515b-1dd7-43e5-816a-caba00e03305")
+		)
+		(pin "B2"
+			(uuid "c05735bc-53e4-4615-81a8-07317237a310")
+		)
+		(pin "B4"
+			(uuid "d632959b-cb98-4338-80a5-9626578ee8df")
+		)
+		(pin "A1"
+			(uuid "fc8b6e36-64e8-4603-be67-cd43be5b7485")
+		)
+		(pin "15"
+			(uuid "9981d996-ee4f-4eef-9da8-6d879d5fbd79")
+		)
+		(pin "B3"
+			(uuid "c3459e06-dbe4-46ba-8232-740b0de6ee46")
+		)
+		(pin "B5"
+			(uuid "f75c9c98-dd04-4909-a05a-bea5a08ea4c2")
+		)
+		(pin "B6"
+			(uuid "3e39693e-801a-4a97-aa5b-191380047d8c")
+		)
+		(pin "B8"
+			(uuid "3025aa51-1f62-4b20-bd2d-5e099213a99a")
+		)
+		(pin "B11"
+			(uuid "58033987-8b11-4e0b-b28c-096d79ea5a8d")
+		)
+		(pin "B10"
+			(uuid "d38bebf6-2727-4b47-91d4-ec18b4dcfb15")
+		)
+		(pin "B12"
+			(uuid "fb6281c3-e889-48cd-a053-8af9982c138d")
+		)
+		(instances
+			(project "USB_Hub_Schematic"
+				(path "/bd4df7b8-c39d-40e5-889a-b2256ac03812"
+					(reference "USB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_easyeda:TYPE-C24PQT143")
+		(at 374.65 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d4fa4f1b-d7bf-499b-8bdf-b79f5a40b5d5")
+		(property "Reference" "USB2"
+			(at 374.65 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB-C Female"
+			(at 374.65 46.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_easyeda:TYPE-C-SMD_C9900025773"
+			(at 374.65 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156605.pdf"
+			(at 374.65 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 374.65 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN(首韩)"
+			(at 374.65 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TYPE-C 24P QT 143"
+			(at 374.65 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5156605"
+			(at 374.65 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "B7"
+			(uuid "e2ee2ce9-69f5-4bf0-ae67-370dbeb2c2c1")
+		)
+		(pin "A6"
+			(uuid "b6ecb6f2-9330-40a3-b2c4-afdd8efbdd36")
+		)
+		(pin "B9"
+			(uuid "9f24ca33-3848-403d-87e4-781f5f579fd5")
+		)
+		(pin "A12"
+			(uuid "e701e9d9-f7c8-45f6-bb52-eebdd717c391")
+		)
+		(pin "A3"
+			(uuid "e4687af9-c1cb-4865-987a-039b441232aa")
+		)
+		(pin "A4"
+			(uuid "32f84cf6-d400-4730-bf54-df540891d8de")
+		)
+		(pin "A5"
+			(uuid "6cdb1b55-c434-4ae6-9934-dfaac2a506ee")
+		)
+		(pin "16"
+			(uuid "628ce058-f6f9-4450-9de4-ae415f0026a9")
+		)
+		(pin "18"
+			(uuid "40cf3555-b749-40f0-8aeb-e5a22cf55f77")
+		)
+		(pin "17"
+			(uuid "53f98144-168d-4785-bd31-7a708ee3f525")
+		)
+		(pin "A2"
+			(uuid "58f0f7ac-95b3-40a0-b218-dad027a15cc0")
+		)
+		(pin "A7"
+			(uuid "46894c66-5274-470a-aa74-a4f97c3d95b0")
+		)
+		(pin "A8"
+			(uuid "74b0a604-811d-4707-8d0a-96f15f811daa")
+		)
+		(pin "A10"
+			(uuid "96b1439d-052e-4641-b3ce-beebe4aa43df")
+		)
+		(pin "A11"
+			(uuid "03fc3ee0-d349-43be-99a3-157ae9019f2e")
+		)
+		(pin "B1"
+			(uuid "168f725a-bc0d-4b05-81f8-7f1159575225")
+		)
+		(pin "A9"
+			(uuid "fb2db105-ffcb-4808-9e03-a95c48fa498e")
+		)
+		(pin "B2"
+			(uuid "731d8203-8a3e-4713-9fbd-eb9bdfbbdad1")
+		)
+		(pin "B4"
+			(uuid "f975eb9f-c589-47ce-a5bd-84c8c6911653")
+		)
+		(pin "A1"
+			(uuid "2b478cc5-10f6-49b0-a5d7-6a3ed2a97f41")
+		)
+		(pin "15"
+			(uuid "983645fa-5b3b-4cd1-ac91-96044795650d")
+		)
+		(pin "B3"
+			(uuid "86c2bffa-233e-47ed-8954-042b62984732")
+		)
+		(pin "B5"
+			(uuid "a6d6a2c9-d1c1-4276-aac9-f00ea36f11ba")
+		)
+		(pin "B6"
+			(uuid "4c546512-feb1-4e1b-a934-d7225ce88489")
+		)
+		(pin "B8"
+			(uuid "f7309a29-ff39-44b9-a0be-0e9c41f85607")
+		)
+		(pin "B11"
+			(uuid "2179b610-418a-4d06-8d5b-8f4f3d9b475c")
+		)
+		(pin "B10"
+			(uuid "7ac10ca7-d677-4c85-8779-611c83f46eec")
+		)
+		(pin "B12"
+			(uuid "a146cd75-a648-476b-81ce-efa38df1d9fc")
+		)
+		(instances
+			(project "USB_Hub_Schematic"
+				(path "/bd4df7b8-c39d-40e5-889a-b2256ac03812"
+					(reference "USB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_easyeda:TYPE-C24P-GTJB040")
+		(at 49.53 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e6548189-bed5-43dc-ab58-fb17dfec608d")
+		(property "Reference" "U2"
+			(at 51.6733 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USB-C Male"
+			(at 49.53 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc_easyeda:USB-C-SMD_TYPE-C-24P-GTJB-040"
+			(at 49.53 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C3151751.pdf"
+			(at 49.53 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN(首韩)"
+			(at 49.53 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TYPE-C 24P-GTJB 040"
+			(at 49.53 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C3151751"
+			(at 49.53 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A3"
+			(uuid "c0a1664c-aa68-4e7e-bfec-2e3a23152aa7")
+		)
+		(pin "A5"
+			(uuid "62eac25b-b0e5-4da3-8894-ce866c5ba0fc")
+		)
+		(pin "B3"
+			(uuid "9c5857c8-2645-4b1c-b3a9-1434cee0051e")
+		)
+		(pin "A4"
+			(uuid "4e7ff5a5-b7d9-4bb8-8a2b-a6fd99753366")
+		)
+		(pin "25"
+			(uuid "42e10450-1e6e-449d-a17f-694b8b854f60")
+		)
+		(pin "A9"
+			(uuid "1f5cf943-a298-458a-bae2-52cc61729576")
+		)
+		(pin "A7"
+			(uuid "a9bee6c9-b515-4d50-91a6-02f0361d68a3")
+		)
+		(pin "A1"
+			(uuid "c1f8b367-9f28-4528-98f4-39062f35e7e9")
+		)
+		(pin "A10"
+			(uuid "bd5de96e-905b-44a8-b8f7-94c8ab2c5585")
+		)
+		(pin "B8"
+			(uuid "9c7aadd7-b437-4e6a-91da-e781eecd4a6c")
+		)
+		(pin "B11"
+			(uuid "37cb6788-ffa1-4d9e-a421-04db7994fbbc")
+		)
+		(pin "A2"
+			(uuid "0d5b5906-522d-486e-9ced-5b622b51c969")
+		)
+		(pin "B4"
+			(uuid "d0dd44cc-ed3a-4460-bf7a-af1be41cab67")
+		)
+		(pin "26"
+			(uuid "69fa5a0e-54b2-4cb9-b885-2a445803de7c")
+		)
+		(pin "B5"
+			(uuid "46674bc1-b8a3-4e43-bf45-577c18449587")
+		)
+		(pin "B6"
+			(uuid "501150d0-5c14-494c-9f32-81da2101ee06")
+		)
+		(pin "A6"
+			(uuid "2bf07088-96b6-4310-81ca-a24c226f81de")
+		)
+		(pin "A11"
+			(uuid "b0b6e4b5-893e-492d-bd12-5838e7bcd542")
+		)
+		(pin "B7"
+			(uuid "ba30156e-124d-4759-af23-b9238e34ac9b")
+		)
+		(pin "A12"
+			(uuid "311dde75-6867-44bb-9363-a97eb313bc50")
+		)
+		(pin "A8"
+			(uuid "92ceb91a-9315-42e3-b94a-2b9b2162e713")
+		)
+		(pin "B1"
+			(uuid "de232d48-d09b-44ee-97f1-85aee3945b3c")
+		)
+		(pin "B2"
+			(uuid "3aadf0ad-14fa-437a-ab35-d91c653f998f")
+		)
+		(pin "B9"
+			(uuid "7ec0ad72-9d01-471a-b637-ecc2111517c5")
+		)
+		(pin "B10"
+			(uuid "112d9029-d161-431f-bb05-a079f2f3bc6f")
+		)
+		(pin "B12"
+			(uuid "7dc0777b-67c8-42d8-ad55-83621bb893db")
+		)
+		(instances
+			(project "USB_Hub_Schematic"
+				(path "/bd4df7b8-c39d-40e5-889a-b2256ac03812"
+					(reference "U2")
 					(unit 1)
 				)
 			)
