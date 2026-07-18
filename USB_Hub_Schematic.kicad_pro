@@ -17,7 +17,7 @@
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
         "dimension_precision": 4,
-        "dimension_units": 3,
+        "dimension_units": 1,
         "dimensions": {
           "arrow_length": 1270000,
           "extension_offset": 500000,
@@ -58,6 +58,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.1501,
+          "via_gap": 0.0,
+          "width": 0.1356
         }
       ],
       "drc_exclusions": [],
@@ -83,8 +88,8 @@
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
-        "hole_to_hole": "warning",
-        "holes_co_located": "warning",
+        "hole_to_hole": "error",
+        "holes_co_located": "error",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -116,7 +121,7 @@
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
-        "track_dangling": "warning",
+        "track_dangling": "error",
         "track_not_centered_on_via": "ignore",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
@@ -125,7 +130,7 @@
         "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "warning",
+        "via_dangling": "error",
         "zones_intersect": "error"
       },
       "rules": {
@@ -195,9 +200,9 @@
       ],
       "track_widths": [
         0.0,
-        0.2,
         0.25,
-        0.85
+        0.3,
+        0.4
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
