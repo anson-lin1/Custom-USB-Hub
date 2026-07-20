@@ -221,18 +221,22 @@
           "spacing": 0.25
         },
         "single_track_defaults": {
-          "corner_radius_percentage": 60,
+          "corner_radius_percentage": 40,
           "corner_style": 1,
           "max_amplitude": 0.5,
           "min_amplitude": 0.2,
           "single_sided": false,
-          "spacing": 0.25
+          "spacing": 0.2
         }
       },
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -716,7 +720,7 @@
         "uuid": "bd4df7b8-c39d-40e5-889a-b2256ac03812"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U8,R42",
     "variants": []
   },
   "sheets": [
