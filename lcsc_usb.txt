@@ -9,3 +9,4 @@ C284879 #USB to microSD Reader(GL823K)
 C393941 #microSD Reader(TF PUSH)
 C2906768 #Test Point
 C30051679 #5V to 3.3V fixed buck converter TPSM863253
+C478090 #EEPROM
